@@ -1,130 +1,27 @@
-# MC4J Launcher
+# MC4JLauncher
 
-A launcher designed for Minecraft Legacy Console Edition.
+MC4JLauncher is an indie Minecraft launcher made entirely by me, LG-Smart-TV. Originally, the README, the icon, and parts of the code were made by AI, but I realized that this negatively influenced the app's reputation, so I'm correcting that.
 
-MC4J Launcher is an independent Windows application focused on managing and running Minecraft Legacy Console Edition installations.
+Below, I'll provide an instruction manual for anyone who somehow stumbled upon this project and doesn't know how a Minecraft launcher works, which I find unlikely, but you never know... right?
 
-It provides an organized environment for handling multiple game installations, managing extensions, preparing runtime sessions, and launching the game through a unified interface.
+## 1. Obtain the source code
 
-## ✨ Features
+*(It is not included with the launcher.)*
 
-- **Installation Management** — Automatically discovers and lists available Minecraft installations.
-- **Multiple Installations** — Manage multiple game installations independently.
-- **GameHDD Access** — Quickly access each installation's GameHDD directory.
-- **Extension System** — Load, manage, and execute supported extensions.
-- **Runtime Management** — Prepares the required environment before launching the game.
-- **Session Management** — Manages temporary game sessions.
-- **Process Monitoring** — Tracks the Minecraft process and detects when the game starts or exits.
-- **Automatic Cleanup** — Handles temporary files and session cleanup.
-- **Error Logging** — Records diagnostic information.
-- **Windows Integration** — Opens installation directories directly through Windows Explorer.
+Look, I find it unlikely that you'll be able to obtain the source code legally, since the code is being taken down through DMCA claims for being proprietary code. So, I don't care how you obtained it, just don't drag me into trouble if you get yourself into trouble (please). Anyway, I won't provide instructions on how to do it, but obtain it. It can be an already modified version of the code and doesn't necessarily need to be compiled, since MC4JEditor can compile it, but anyway, get it.
 
-## 🖥️ Platform
+## 2. Create an installation in MC4JEditor and save it somewhere to be copied later
 
-| Component | Support |
-|---|---|
-| Operating System | Windows |
-| Application | MC4J Launcher |
-| Game | Minecraft Legacy Console Edition |
-| Extensions | MC4J Extension System |
+Follow all the steps in the MC4JEditor README, create an installation, and save it somewhere for later.
 
-## 🚀 Getting Started
+## 3. Clone the repository
 
-### Requirements
+Click on **Code** and then **Download ZIP**, or clone it using Git, which isn't really necessary, and place the files created by MC4JEditor inside a subfolder created in the `installations` folder.
 
-- Windows
-- A valid Minecraft Legacy Console Edition installation
+## 4. Start the game
 
-**No Python installation is required.** MC4J Launcher is distributed as a standalone executable.
+Launch `MC4JLauncher.exe`, select the installation, and click **Play**. If you want, right-click the installation, click **Extensions**, and enable an extension if you added one in the second step.
 
-### Installation
+## 5. Have fun!
 
-1. Download the MC4J Launcher executable.
-2. Place it in a convenient location.
-3. Run `MC4JLauncher.exe`.
-
-No additional Python setup or dependency installation is necessary.
-
-## 🎮 Using MC4J Launcher
-
-### Selecting an Installation
-
-Available installations are displayed in the main window.
-
-Select an installation to view its description, version, and package information.
-
-### Launching the Game
-
-1. Select the desired installation.
-2. Click **PLAY**.
-3. Wait for the runtime preparation process.
-4. Minecraft will launch automatically.
-
-The launcher monitors the game process and updates its status when Minecraft exits.
-
-### Managing Extensions
-
-Right-click an installation and select **Extensions** to access its extension management window.
-
-From there, you can:
-
-- View detected extensions.
-- Inspect extension information.
-- Execute selected extensions.
-- Refresh the extension list.
-
-### Accessing Installation Directories
-
-The installation context menu provides shortcuts to:
-
-- **Open GameHDD**
-- **Open Extensions Folder**
-
-These directories allow users to access installation-specific files.
-
-## 🧩 Extension System
-
-MC4J Launcher includes an extension management system designed to allow additional functionality to be integrated into the launcher.
-
-Extensions can interact with launcher events, including:
-
-- `game_started`
-- `game_stopped`
-
-Extension loading and execution are managed internally by the launcher.
-
-Extension development documentation and API specifications are not currently publicly available.
-
-## 📦 Game Files and Source Code
-
-MC4J Launcher does not include or distribute Minecraft Legacy Console Edition source code or game files.
-
-Users must obtain their own legally accessible game files and provide their own source code when creating custom `.mc4j` packages with MC4JEditor.
-
-The Minecraft source code is not included with MC4J Launcher or MC4JEditor. Downloading either application does not provide a copy of the game's source code.
-
-Users are responsible for obtaining and using game files they are legally entitled to use.
-
-## 📋 Logging and Recovery
-
-MC4J Launcher records diagnostic information to help identify application and runtime issues.
-
-Temporary execution sessions are managed by the application.
-
-## ⚠️ Disclaimer
-
-MC4J Launcher is an independent community project.
-
-It is not affiliated with, endorsed by, or officially associated with Mojang Studios, Microsoft, or 4J Studios.
-
-Minecraft is a trademark of Microsoft Corporation.
-
-Users are responsible for providing their own legally obtained game files.
-
-## 📜 License
-
-See the repository's `LICENSE` file for licensing information.
-
----
-
-**MC4J Launcher — Bringing a new way to manage Minecraft Legacy Console Edition.**
+You can also create multiple installations of different game versions. Enjoy!
